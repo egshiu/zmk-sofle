@@ -28,7 +28,7 @@
 };
 
 &soft_off { hold-time-ms = <2000>; };
-
+/*
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -37,7 +37,7 @@
 
         tap-ms = <100>;
     };
-
+*/
     behaviors {
         rsr_vol: rsr_vol {
             compatible = "zmk,behavior-runtime-sensor-rotate";
